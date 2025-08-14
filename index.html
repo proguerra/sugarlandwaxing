@@ -10,64 +10,26 @@
   <meta property="og:description" content="Fast, flawless waxing in Sugar Land. Book now at Viva La Beauty." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://sugarlandwaxing.com/" />
-  <meta property="og:image" content="assets/viva-logo-regular.png" />
+  <meta property="og:image" content="/assets/viva-logo-regular.png" />
   <link rel="icon" href="/favicon.ico" />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     .glass { backdrop-filter: blur(8px); background: rgba(255,255,255,.7); }
     .shadow-soft { box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+    .logo-shadow { filter: drop-shadow(0 1px 1px rgba(0,0,0,.25)); }
   </style>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Sugar Land Waxing (by Viva La Beauty)",
-    "image": "assets/viva-logo-regular.png",
-    "url": "https://sugarlandwaxing.com",
-    "telephone": "+1-832-316-1814",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "15315 Southwest Fwy Ste. 192",
-      "addressLocality": "Sugar Land",
-      "addressRegion": "TX",
-      "postalCode": "77478",
-      "addressCountry": "US"
-    },
-    "sameAs": ["https://vivalabeautywax.com"],
-    "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens":"08:00", "closes":"16:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens":"08:00", "closes":"16:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens":"16:00", "closes":"22:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens":"08:00", "closes":"15:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens":"16:00", "closes":"22:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens":"06:00", "closes":"14:00" }
-    ]
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"FAQPage",
-    "mainEntity":[
-      {"@type":"Question","name":"How fast is a typical waxing session?","acceptedAnswer":{"@type":"Answer","text":"Most services take 15–30 minutes thanks to our speed‑wax method."}},
-      {"@type":"Question","name":"Do you offer Brazilian waxing?","acceptedAnswer":{"@type":"Answer","text":"Yes. Brazilian is one of our most‑booked services, with expert technique for comfort and smooth results."}},
-      {"@type":"Question","name":"What areas do you serve?","acceptedAnswer":{"@type":"Answer","text":"Sugar Land, First Colony, Telfair, Riverstone, Greatwood—and nearby West/Southwest Houston."}},
-      {"@type":"Question","name":"Where do I book?","acceptedAnswer":{"@type":"Answer","text":"All bookings are handled through Viva La Beauty. Use the Book Now buttons on this page."}}
-    ]
-  }
-  </script>
 </head>
 <body class="bg-gradient-to-b from-white to-slate-50 text-slate-900 antialiased">
   <header class="sticky top-0 z-30 bg-white/80 border-b border-slate-200 backdrop-blur">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
       <div class="flex items-center gap-3">
-        <img src="assets/viva-logo-transparent.png" alt="Viva La Beauty Logo" class="h-9 w-auto" />
-        <span class="font-semibold">Sugar Land Waxing</span>
+        <a href="/"><img src="/assets/viva-logo-transparent.png?v=2" alt="Viva La Beauty Logo" class="h-9 w-auto logo-shadow" /></a>
+        <a href="/" class="font-semibold hover:text-pink-600">Sugar Land Waxing</a>
       </div>
       <nav class="hidden sm:flex items-center gap-6 text-sm">
         <a href="#services" class="hover:text-pink-600">Services</a>
         <a href="#why" class="hover:text-pink-600">Why Us</a>
+        <a href="/blog/" class="hover:text-pink-600">Blog/Events</a>
         <a href="#faq" class="hover:text-pink-600">FAQ</a>
         <a href="#contact" class="hover:text-pink-600">Contact</a>
         <a href="https://vivalabeautywax.com" target="_blank" rel="noopener" class="inline-flex items-center rounded-xl border border-pink-600 px-3 py-1.5 text-pink-700 hover:bg-pink-50">Main Site</a>
@@ -176,7 +138,7 @@
           <li>Fri: 4:00 PM – 10:00 PM</li>
           <li>Sat: 6:00 AM – 2:00 PM</li>
           <li>Sun: Closed</li>
-          <li class="mt-2"><strong>Email:</strong> vivalabeautywax2025@gmail.com</li>
+          <li class="mt-2"><strong>Email:</strong> hello@vivalabeautywax.com</li>
         </ul>
       </div>
       <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-soft">
@@ -215,7 +177,8 @@
         <div class="flex gap-4">
           <a href="https://vivalabeautywax.com" target="_blank" rel="noopener" class="hover:underline">Main Site</a>
           <a href="tel:+18323161814" class="hover:underline">Call</a>
-          <a href="mailto:vivalabeautywax2025@gmail.com" class="hover:underline">Email</a>
+          <a href="mailto:hello@vivalabeautywax.com" class="hover:underline">Email</a>
+          <a href="/blog/" class="hover:underline">Blog/Events</a>
         </div>
       </div>
     </div>
